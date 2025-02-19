@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+main {
+    padding: 20px;
+    margin-top: 82px; /* Account for header height */
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-top: 60px; /* Adjust for mobile if needed */
+    }
+}
